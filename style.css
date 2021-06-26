@@ -10,8 +10,9 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    /* */
-    perspective: 1000px;
+    /*  */
+    
+    
 }
 
 
@@ -27,12 +28,16 @@ body {
 .card {
     /* */
     transform-style: preserve-3d; 
-    min-height: 80vh;
+    max-height: 80vh;
     width: 25rem;
     /* Used second box-shadow to make blur around */
     box-shadow: 0px 20px 20px rgba(0, 0, 0, 0.2), 0px 0px 50px rgba(0, 0, 0, 0.2); 
     padding: 0rem 5rem;
     border-radius: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    perspective: 1000px;
+    border: 0.5px gray solid rgba(0, 0, 0, 0.2);
     
 }
 
@@ -104,6 +109,7 @@ button.active {
 .purchase {
     margin-top: 1.5rem;
     transition: all 0.75s ease-out;
+    margin-bottom: 1.5rem;
 }
 
 .purchase button {
