@@ -7,3 +7,6 @@ Case study:
 - 3D Animation effect using transform, transform-style, and perspective CSS rules.
 
 Click [here](http://www.andrewpham.ca/3d-card-effect/) to view.
+
+Preivew: 
+![3d card effect](https://media.giphy.com/media/iTJcfQ05FxzvNeI66X/giphy.gif)
